@@ -1,0 +1,52 @@
+
+/* Improve color contrast for readability */
+body {
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+/* Add focus styles to improve keyboard navigation */
+:focus {
+    outline: 2px solid #007bff;
+}
+
+/* Hide elements visually, but keep them accessible for screen readers */
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    white-space: nowrap;
+}
+
+/* Style skip links for screen readers */
+.skip-link {
+    position: absolute;
+    top: -40px;
+    left: 0;
+    background-color: #333;
+    color: #fff;
+    padding: 5px;
+    z-index: 1000;
+}
+
+/* Improve readability for links */
+a {
+    color: #007bff;
+    text-decoration: underline;
+}
+
+/* Ensure images are not distorted when resized */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+/* Accessibility site customization
+/* You can change them by visiting https://htmlcolorcodes.com/
